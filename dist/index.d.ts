@@ -1,4 +1,5 @@
 /// <reference types="react" />
+export declare function hookUp(hud: HTMLDivElement): void;
 interface Props {
     text: string;
 }
