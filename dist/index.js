@@ -30898,7 +30898,11 @@ var ExampleComponent = function ExampleComponent(_ref) {
     className: styles.test
   }, "Example Component: ", text);
 };
+function hello() {
+  console.log('hello');
+}
 
 exports.ExampleComponent = ExampleComponent;
+exports.hello = hello;
 exports.hookUp = hookUp;
 //# sourceMappingURL=index.js.map

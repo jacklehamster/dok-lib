@@ -30895,6 +30895,9 @@ var ExampleComponent = function ExampleComponent(_ref) {
     className: styles.test
   }, "Example Component: ", text);
 };
+function hello() {
+  console.log('hello');
+}
 
-export { ExampleComponent, hookUp };
+export { ExampleComponent, hello, hookUp };
 //# sourceMappingURL=index.modern.js.map
