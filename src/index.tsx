@@ -1,10 +1,9 @@
 import * as React from 'react'
 import styles from './styles.module.css'
-import * as ReactDOMClient from 'react-dom/client'
+import ReactDOM from 'react-dom'
 
 export function hookUp(hud: HTMLDivElement) {
-  const hudRoot = ReactDOMClient.createRoot(hud)
-  hudRoot.render(<ExampleComponent text='testing' />)
+  ReactDOM.render(<ExampleComponent text='testing' />, hud);
 }
 
 interface Props {
